@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* Resetando as margens e o padding de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Cor de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo do Caixote */
+.caixote {
+    width: 300px;
+    padding: 20px;
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito ao passar o mouse sobre a caixa */
+.caixote:hover {
+    transform: translateY(-10px); /* Levanta a caixa ao passar o mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
+
+/* Estilo do título dentro do caixote */
+.caixote h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilo do texto dentro do caixote */
+.caixote p {
+    font-size: 16px;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Ground</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="topo">Tentando ser melhor</h1>
+    <p>&#x1F389</p>
+    <hr>
+    <h2>Primeiras imagens do site.:</h2>
+    <p>Logo de HTML5.</p>
+    <img src="html-200.webp" alt="LOGO HTML5">
+    <p>Logo de CSS3.</p>
+    <img src="css-200l.webp" alt="LOGO CSS">
+    <hr>
+    <h1>Negrito e Itálico</h1>
+    <p>Para usar <strong>negrito</strong>, usamos o comando STRONG.</p>
+    <p>E para usar <em>italico</em>, usamos o comando EM.</p>
+    <hr>
+    <h2>Marcações:</h2>
+    <p>O comando usado para <mark>marcação</mark> é MARK.</p>
+    <p>Podemos acrescentar um estilo diferente de marcação usando o comando STYLE, seguido de "background-color".</p>
+    <p>Exemplo: 'Fui <mark style="background-color: limegreen;">ao mercado</mark> hoje.' (selecionei <strong>ao mercado</strong> com o comando descrito acima.)</p> 
+    <hr>
+    <h2>Texto excluido:</h2>
+    <p>Para texto <del>excluido/deletado</del>, usamos a tag DEL.</p>
+    <hr>
+    <h2>Texto inserido ou sublinhado:</h2>
+    <p>Para <ins>sublinhar um texto</ins>, usamos a tag INS.</p>
+    <hr>
+    <h2>Texto sobrescrito:</h2>
+    <p>Para sobrescrever algum valor, como elevar um numero ao quadrado ou cubo... usamos a tag SUP.</p>
+    <p>Exemplo: x20+3 (sem tag) / x<sup>20</sup>+3 (com tag).</p>
+    <hr>
+    <h2>Texto subscrito:</h2>
+    <p>Para sobscrever algum valor, usamos a tag SUB.</p>
+    <p>Exemplo: H2O (sem tag) / H<sub>2</sub>0 (com tag).</p>
+    <hr>
+    <h2>Outros comandos:</h2>
+    <p>Melhorar qualidade da escrita para facilitar leitura: tag CODE.</p>
+    <p><code>Frase usando a tag acima. Note a diferença.</code></p>
+    <p>Envelopar um conjunto de escrita: tag PRE.</p>
+    <hr>
+    <h2>Citações:</h2>
+    <p>Para usar aspas ("), usamos a tag Q.</p>
+    <p><q>Como diria um velho amigo, o computador é um burro muito veloz.</q></p>
+    <hr>
+    <h2>Abreviações:</h2>
+    <P>Para abreviar algo, usamos a tag ABBR.</P>
+    <p>Exemplo: Estou adorando este curso do <abbr title="Curso em Video">CeV</abbr>.</p>
+    <p>A tag ABBR foi utilizada em "CeV".</p>
+    <hr>
+    <h2>Texto invertido:</h2>
+    <P>Para texto invertido, usamos a tag BDO.</P>
+    <p>Usaremos o dir:"rtl".</p>
+    <p>Exemplo: <bdo dir="rtl">Estou adorando este curso.</bdo>
+        <hr>
+    <h1>listas:</h1>
+        <h2>Listas ordenadas:</h2>
+        <p>Para organizar listas, usamos a tag LI dentro de OL.</p>
+        <ol> 
+            <li>Acordar</li>
+            <li>Tomar café</li>
+            <li>Trabalhar</li>
+        </ol>
+
+        <h2>Listas nao ordenadas:</h2>
+        <p>Para gerar listas nao ordenadas usamos a tag UL.</p>
+        <ul>
+            <li>Acordar</li>
+            <li>Tomar café</li>
+            <li>Trabalhar</li>
+        </ul>
+     <h2>Listas em listas:</h2>
+        <ol type="I">
+            <li>Manhã:</li>
+            <ol type="1">
+                <li>Estudar</li>
+                <li>Trabalhar</li>
+            </ol>
+            <li>Tarde:</li>
+            <ol type="1">
+                <li>Almoçar</li>
+                <li>Descansar</li>
+            </ol>
+        <h2>Lista de definições:</h2>
+        <p>Para gerenciar essa função, usamos as tags DL e DT para enunciar algo e DD para descrevar.
+        <dl>
+            <dt>CBF</dt>
+            <dd>Clube Brasileiro Futebolistico.</dd>
+         </dl>
+        </ol>
+        <hr>
+        <h2>Links externos:</h2>
+        <p>Você pode indicar links as suas menções usando a tag A.</p>
+        <p>Contudo, podem ser usadas outras tags acresentadas para que o link seja aberto em nova aba. (TARGET="_BLANK" e REL="EXTERNAL")</p>
+        <p>Exemplo:</p>
+        <p>O link para abrir o youtube está <a href="https://www.youtube.com/" target="_blank" rel="external">aqui</a>.</p>
+        <p>O link para abrir o youtube está <a href="https://www.youtube.com/">aqui</a>.</p>
+        <p>Ambos links funcionam, o que varia é a abertura de e seguimentos de páginas.</p>
+        <h2>Links internos:</h2>
+        <p>Links que tem associação de um mesmo servidor, tendo como uso a mesma tag A.</p>
+        <p>Exemplo:</p>
+        <p>Meu outro <a href="pag02.html" rel="next">site</a>.</p>
+        <p>Indicado usar as tags REL="NEXT" e REL="PREV".</p>
+        <h2>Para links sem aval, usamos a sub-tag REL="NOFOLLOW".</h2>
+        <p>Exemplo:</p>
+        <p>Siga o site no nosso <a href="https://www.facebook.com/" target="_blank" rel="nofollow">facebook</a>.</p>
+        <hr>
+        <h2>Gerando links de download:</h2>
+        <p>Usaremos a tag A novamente.</p>
+        <ol>
+            <li>Baixar um PDF clicando <a href="teste download site/10 - Ligações em toda parte.zip">aqui</a>.</li>
+            <li>Baixar uma imagem clicando <a href="teste download site/teste image.jpg">aqui</a>.</li>
+        </ol>
+        <hr>
+        <h1>Inserção de midia MP3 em sites:</h1>
+        <p>Para isso, usamos as seguintes tags: (AUDIO para gerar aplicação, CONTROLS para comando de play e AUTOPLAY)</p>
+        <audio src="midias/idfc-blackbear.mp3" controls autoplay></audio>
+        <p>Se seu navegador não conseguir reproduzir o MP3, clique <a href="midias/idfc-blackbear.mp3" target="_blank" rel="external">aqui</a> para baixar o arquivo.</p>
+        <h1>Inserção de video hospedados localmente em sites:</h1>
+        <p>Usaremos a tag VIDEO para inserir e WIDTH/HEIGHT para defenir o tamanho/largura.</p>
+        <video controls width="450" height="250">
+            <source src="midias/my-video.mp4" type="video/mp4">
+        </video>
+        <h2>Inserção de video em sites advindos de outras redes:</h2>
+        <h3>Inserindo videos do youtube:</h3>
+        <p>Apenas incorporaremos o codigo diretamente da plataforma.</p>
+        <p>Video de highligth do PUBGm.</p>
+        <iframe width="450" height="250" src="https://www.youtube.com/embed/WFK1kOyW32U?si=wh91mF6CydlrQ1JL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(180, 186, 194, 0.411);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+p {
+    text-indent: 14px;
+}
