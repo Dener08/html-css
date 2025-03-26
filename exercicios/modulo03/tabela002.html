@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: lightgrey;
+            padding: 5px;
+        }
         table {
             height: 100px;
             width: 500px;
             border-collapse: collapse;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgreen;
         }
 
         thead {
@@ -30,15 +40,17 @@
 <body>
     <h1>Anatomia da tabela grande</h1>
     <h2>TABLE</h2>
+    <p>CAPTION</p>
     <p>THEAD</p>
     <P>TBODY</P>
     <P>TFOOT</P>
 
     <table>
+        <caption>Top estados federativos</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
 
@@ -63,7 +75,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td><strong>36 324 050</strong></td>
             </tr>
         </tfoot>
