@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            height: 100px;
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background-color: rgb(30, 112, 139);
+            color: white;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tfoot {
+            background-color: lightslategrey;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Anatomia da tabela grande</h1>
+    <h2>TABLE</h2>
+    <p>THEAD</p>
+    <P>TBODY</P>
+    <P>TFOOT</P>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Bahia </td>
+                <td>14 141 626</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 444 380</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>7 610 361</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3 127 683</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td><strong>36 324 050</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
