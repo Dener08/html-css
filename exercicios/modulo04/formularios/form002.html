@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Faça seu login</h1>
+    <form action="cadastro.php" method="post"></form>
+    <p>
+        <label for="iusu"> Usuario:</label>
+        <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15">
+    </p>
+    <p>
+        <label for="ipass"> Senha:</label>
+        <input type="password" name="pass" id="ipass" required minlength="8">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    
+</body>
+</html>
