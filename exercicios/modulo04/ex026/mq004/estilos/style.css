@@ -23,6 +23,7 @@ body {
 
 main {
     background-color: rgba(255, 255, 255, 0.705);
+    display: block;
     width: 400px
     margin: auto;
     margin-top: 20px;
